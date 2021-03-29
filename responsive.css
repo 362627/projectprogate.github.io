@@ -1,0 +1,182 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px){    
+    /* Header */
+    .logo{
+        width: 100%;
+    }
+
+    .logo img{
+        width: 50%;
+    }
+
+    .nav{
+        float: right;
+    }
+
+    div.container {
+        display: flex;
+      }
+
+      div.nav ul {
+        /* padding: 13px 20px; */
+        display: table-cell;
+      }
+
+      div.nav ul li {
+        /* padding: 13px 20px; */
+        display: table-cell;
+      }
+
+    /* Content */
+    .top-wrapper{
+        width: 100%;
+        padding: 0;
+    }
+
+    .secondary-container{
+        width:60%;
+        margin-bottom: 20px;
+    }
+
+    .secondary-container h1{
+        font-size: 35px;
+        padding: 0;
+    }
+
+    .content{
+        width: 100%;
+        margin: 0;
+        padding: 0 10px 0 10px;
+    }
+
+    .content p{
+        text-align: justify;
+    }
+
+    /* Footer */
+    .footer{
+        width: 110%;
+        height: 890px;
+        display: none;
+    }
+
+    .copyright{
+        float: left;
+    
+    }
+
+    .privacy{
+        float: right;
+        margin-right: -5px;
+    }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px){
+    /* Header */
+    .container{
+        width: 170%;
+    }
+    .logo img{
+        width: 70%;
+    }
+
+    .nav li a{
+        display: none;
+    }
+
+    .career a{
+        display: none;
+    }
+
+    /* Content */
+    .top-wrapper{
+        width: 100%;
+        padding: 0;
+    }
+
+    .secondary-container{
+        width: 87%;
+        margin-left: 15px;
+        height: 200px;
+    }
+
+    .secondary-container h1{
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .content{
+        width: 100%;
+        margin: 0;
+        padding: 0 10px 0 10px;
+    }
+
+    .content p{
+        text-align: justify;
+    }
+
+    .content h2, h3{
+        font-size: 28px;
+    }
+
+    .content img{
+        width: 100%;
+    }
+
+    /* Form */
+    .img-kiri img{
+        width: 130%;
+    }
+
+    .form-kanan select{
+        width: 60%;
+    }
+
+    .form-kanan input{
+        width: 60%;
+    }
+
+    .check{
+        padding: 0;
+        margin-left: -150px;
+    }
+
+    /* Footer */
+    .footer{
+        width: 110%;
+        height: 890px;
+        display: none;
+    }
+
+    .footer-item{
+        width: 100%;
+    }
+
+    .footer-item img{
+        width: 50%;
+    }
+
+    .footer-item h4 span{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .footers{
+        width: 95%;
+        height: 40px;
+    }
+
+    .copyright span{
+        text-align: center;
+        font-size: 11px;
+        margin-left: 60px;
+    }
+
+    .privacy a{
+        text-align: center;
+        font-size: 8px;
+        margin-right: 43px;
+        margin-left: 20px;
+    }
+}
